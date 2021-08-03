@@ -73,7 +73,8 @@ p {
     padding-bottom: 240px;
     padding: top 200px;
     border-radius: 10px;
-    width: 100px;
+    min-width: 380px;
+    max-width: 500px;
     background-size: cover;
 }
 
