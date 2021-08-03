@@ -1,0 +1,134 @@
+body {
+    background-color: #000000;
+    color: rgba(240, 255, 255, 0.973);
+}
+
+header.pages {
+    background-color: aliceblue;
+    color: rgba(0, 0, 0, 0.459);
+    padding: 100px;
+}
+
+a.internalLink {
+    color: aqua;
+}
+
+a:link.green {
+    color: rgb(13, 189, 13);
+}
+
+a:link.red {
+    color: red;
+}
+
+a:link.pink {
+    color: rgb(235, 96, 119);
+}
+
+a:link {
+    color: rgba(255, 255, 255, 0.556);
+}
+
+a:link.navL {
+    color: #000000;
+}
+
+a:hover {
+    color: rgba(86, 140, 240, 0.733);
+}
+
+a:link.orange {
+    color: orange;
+}
+
+a:link.blue {
+    color: rgb(20, 190, 212);
+}
+
+img.sol {
+    border-radius: 5%;
+}
+
+.firstImage {
+    height: 300px;
+}
+
+header.home
+/*label:hover {
+    background: rgba(86, 140, 240, 0.733);
+}*/
+
+footer {
+    background-color: aliceblue;
+    color: rgba(0, 0, 0, 0.459);
+}
+
+p {
+    color: rgba(245, 245, 245, 0.61);
+}
+
+.artistOne {
+    background-image: url("../images/Sauti\ sol.jpg");
+    box-sizing: inherit;
+    padding-bottom: 240px;
+    padding: top 200px;
+    border-radius: 10px;
+    width: 100px;
+    background-size: cover;
+}
+
+.artistTwo {
+    background-image: url("../images/White_full.png");
+}
+
+.artistThree {
+    background-image: url("../images/White_full.png");
+}
+
+.artistFour {
+    background-image: url("../images/White_full.png");
+}
+
+.artistFive {
+    background-image: url("../images/White_full.png");
+}
+
+.artistSix {
+    background-image: url();
+}
+
+.artistSeven {
+    background-image: url();
+}
+
+.artistEight {
+    background-image: url();
+}
+
+.artistNine {
+    background-image: url();
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+    color: rgba(245, 245, 245, 0.61);
+}
+
+* {
+    box-sizing: border-box;
+}
+
+.carousel img {
+    max-width: 70em;
+    max-height: 35rem;
+    margin: 0 30px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+
+.carousel {
+    max-width: auto;
+}
