@@ -72,14 +72,15 @@ p {
 }
 
 .artistOne {
-    background-image: url("../images/Sauti\ sol.jpg");
+    background-image: url("../images/flagone.webp");
     box-sizing: inherit;
     padding-bottom: 240px;
     padding: top 200px;
     border-radius: 10px;
-    min-width: 380px;
-    max-width: 500px;
+    min-width: 10rem;
+    max-width: 20rem;
     background-size: cover;
+    background-position: 3rem;
 }
 
 .artistTwo {
@@ -152,7 +153,11 @@ img.middle {
     width: 50%;
 }
 
-
+/*  about us section*/
+.about-us {
+    background-color: grey;
+    margin: 20px 30px;
+}
 /* img.gif {
     box-sizing: inherit;
     max-width: 5rem;
