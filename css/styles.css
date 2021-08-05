@@ -192,10 +192,6 @@ p {
     background-size: cover;
 }
 
-.artistFour {
-    background-image: url("../images/White_full.png");
-}
-
 .artistFive {
     background-image: url("../images/White_full.png");
 }
@@ -294,4 +290,24 @@ img.gif {
     border-radius: 50%;
     object-fit: fill;
     width: 16rem;
+}
+
+.artistFour {
+    background-image: url("../images/Hart.jpg");
+    box-sizing: inherit;
+    padding-bottom: 240px;
+    padding: top 200px;
+    border-radius: 10px;
+    min-width: 10rem;
+    max-width: 20rem;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+.font-apply {
+    font-family: "Righteous", cursive;
+}
+
+.font-apply2 {
+    font-family: "Play", sans-serif;
 }
