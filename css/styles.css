@@ -7,6 +7,64 @@ div.logo {
     background-color: rgba(240, 255, 255, 0.986);
 }
 
+input#email {
+    background-color: rgba(0, 0, 0, 0);
+    color: white;
+    border: 2px solid white;
+    height: 40px;
+    transition: height 1s;
+    -webkit-transition: height 1s;
+}
+
+#email:focus {
+    height: 50px;
+    font-size: 16px;
+}
+
+input#name {
+    background-color: rgba(0, 0, 0, 0);
+    color: white;
+    border: 2px solid white;
+    height: 40px;
+    transition: height 1s;
+    -webkit-transition: height 1s;
+}
+
+#name:focus {
+    height: 50px;
+    font-size: 16px;
+}
+
+textarea {
+    background-color: rgba(0, 0, 0, 0) !important;
+    border: none !important;
+    border: 2px solid white !important;
+    border-radius: 5px !important;
+}
+
+textarea:focus {
+    height: 180px;
+    font-size: 16px;
+}
+
+span {
+    display: block;
+}
+
+input[type="submit"] {
+    background-color: rgba(238, 77, 77, 0.973) !important;
+    border: 1px none !important;
+    border: solid white !important;
+    border-radius: 5px !important;
+    margin-left: 57px !important;
+}
+
+aside {
+    float: right;
+    width: 61%;
+    padding-right: 4%;
+}
+
 footer {
     background-color: blue;
 }
@@ -72,15 +130,15 @@ p {
 }
 
 .artistOne {
-    background-image: url("../images/flagone.webp");
+    background-image: url("../images/Sauti sol.jpg");
     box-sizing: inherit;
     padding-bottom: 240px;
     padding: top 200px;
     border-radius: 10px;
     min-width: 10rem;
-    max-width: 20rem;
+    max-width: 30rem;
     background-size: cover;
-    background-position: 3rem;
+    background-repeat: no-repeat;
 }
 
 .artistTwo {
@@ -153,11 +211,21 @@ img.middle {
     width: 50%;
 }
 
+
 /*  about us section*/
+
 .about-us {
     background-color: grey;
     margin: 20px 30px;
 }
+
+img.gif {
+    border-radius: 50%;
+    object-fit: fill;
+    width: 16rem;
+}
+
+
 /* img.gif {
     box-sizing: inherit;
     max-width: 5rem;
