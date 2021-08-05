@@ -10,7 +10,7 @@ $(document).ready(function() {
             ) &&
             $("textarea").val() > ""
         ) {
-            window.open("../Thankyou.html");
+            window.open("./Thankyou.html");
             window.location.reload();
         }
     });
