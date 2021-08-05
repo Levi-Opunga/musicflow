@@ -141,10 +141,15 @@ p {
     background-repeat: no-repeat;
 }
 
-.artistTwo {}
-
 .artistThree {
-    background-image: url("../images/White_full.png");
+    background-image: url("../images/nyashinski.jpg");
+    box-sizing: inherit;
+    padding-bottom: 240px;
+    padding: top 200px;
+    border-radius: 10px;
+    min-width: 380px;
+    max-width: 500px;
+    background-size: cover;
 }
 
 .artistFour {
