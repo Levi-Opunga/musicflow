@@ -91,6 +91,7 @@ p {
     background-image: url("../images/White_full.png");
 }
 
+/* HART-THE BAND */
 .artistFour {
     background-image: url("../images/Hart.jpg");
     box-sizing: inherit;
@@ -101,6 +102,12 @@ p {
     max-width: 20rem;
     background-size: contain;
     background-repeat: no-repeat;
+}
+.font-apply {
+    font-family: 'Righteous', cursive;
+}
+.font-apply2 {
+    font-family: 'Play', sans-serif;
 }
 
 .artistFive {
