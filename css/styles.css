@@ -192,24 +192,15 @@ p {
     background-size: cover;
 }
 
-.artistFive {
-    background-image: url("../images/White_full.png");
-}
-
-.artistSix {
-    background-image: url();
-}
-
-.artistSeven {
-    background-image: url();
-}
-
-.artistEight {
-    background-image: url();
-}
-
-.artistNine {
-    background-image: url();
+.artistTwo {
+    background-image: url("../images/download\ \(1\).jpeg");
+    box-sizing: inherit;
+    padding-bottom: 240px;
+    padding: top 200px;
+    border-radius: 10px;
+    min-width: 380px;
+    max-width: 500px;
+    background-size: cover;
 }
 
 ul {
