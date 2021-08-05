@@ -27,6 +27,8 @@ body {
 
 div.logo {
     background-color: rgba(240, 255, 255, 0.986);
+    padding-top: 1rem;
+    padding-bottom: 2px;
 }
 
 input#email {
@@ -157,11 +159,6 @@ img.sol {
 .firstImage {
     height: 300px;
 }
-
-header.home
-/*label:hover {
-    background: rgba(86, 140, 240, 0.733);
-}*/
 
 footer {
     background-color: aliceblue;
@@ -298,10 +295,3 @@ img.gif {
     object-fit: fill;
     width: 16rem;
 }
-
-
-/* img.gif {
-    box-sizing: inherit;
-    max-width: 5rem;
-    min-width: 5rem;
-} */
