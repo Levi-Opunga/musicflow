@@ -81,7 +81,7 @@
                         </div>
                     </div>
                     <div class="col-md-6">
-                        <div class="form-group"><input type="text" id="email" class="form-control" name="email" placeholder="Email" required>
+                        <div class="form-group"><input type="text" id="email" class="form-control" name="email" placeholder="Email" pattern="[A-Za-z0-9._%+-]{2,}@[a-zA-Z]{1,}([.]{1}[a-zA-Z]{2,}|[.]{1}[a-zA-Z]{2,}[.]{1}[a-zA-Z]{2,})" required>
                         </div>
                     </div>
                     <div class="col-md-12">
@@ -89,7 +89,7 @@
                     </div>
 
                     <div class="text-center ">
-                        <a href="./Thankyou.html"><input type="submit" value="Send Message" class="btn btn-primary"></a>
+                        <input type="submit" id="submit" value="Send Message" class="btn btn-primary">
                     </div>
 
                 </div>
@@ -143,8 +143,8 @@
                     <a href="https://www.facebook.com/"> <img src="./images/548-5485361_computer-clip-art-black-and-white.png" height="35" alt=""></a>
                     <a href="https://www.discord.gg/"> <img src="./images/discord.png" height="35" alt=""></a>
                     <a href="https://www.reddit.com/"> <img src="./images/reddit.png" height="40" alt=""></a><br>
-                    <button type="button" id="button" class="btn btn-light mt-5">Message us
-                        here</button>
+                    <a><button type="button" id="button" class="btn btn-light mt-5">Message us
+                            here</button></a>
 
                 </div>
 
