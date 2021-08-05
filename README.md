@@ -1,19 +1,20 @@
 ## MusicFlow.
 ![MusicFlow](images/flowcreative.gif)
-#### MusicFlow is  a web application that recomends music for users. 27th July, 2021.
+#### MusicFlow is  a web application that recommends music for users. 27th July, 2021.
 ## Author:**Levi Opunga**
 ## Description
 The aim of MusicFlow is to promote local artists in multinational platforms.
 To achieve this, we refer site users to find artist content on platforms such as deezer, spotify and YouTube in order to increase local artist streams on those platforms that pay more and thus increasing artists' income .
 This will also increase algorithm recommendation predictions on such applications and thus give more localized recommendations to users on such applications.
 
-An website with pages for different artists with links to thier content on different streaming platforms. MusicFlow acts as a recomendation platform for Kenyan music, mimicking the workings of IMDB as a movie recommendation and updates  platform but now for local music .
+An website with pages for different artists with links to their content on different streaming platforms. MusicFlow acts as a recommendation platform for Kenyan music, mimicking the workings of IMDB as a movie recommendation and updates  platform but now for local music .
 ## Setup/Installation Requirements
 From the command line;
 - git clone https://github.com/Levi-Opunga/musicflow.git
 - Open with desired text editor
 - Go live
-Dependancies:
+
+Dependencies for live site:
 * jQuery library
 * Bootstrap
 * Googlefonts
