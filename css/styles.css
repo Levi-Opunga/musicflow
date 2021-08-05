@@ -1,3 +1,25 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto+Mono&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Noto+Sans+JP&display=swap");
+p {
+    font-family: "Roboto Mono", monospace;
+}
+
+li {
+    font-family: "Roboto Mono", monospace;
+}
+
+h3#home {
+    font-family: "Roboto Mono", monospace;
+}
+
+.findus {
+    font-family: "Noto Sans JP", sans-serif;
+}
+
+h1 {
+    font-family: "Noto Sans JP", sans-serif;
+}
+
 body {
     background-color: #000000f8;
     color: rgba(240, 255, 255, 0.973);
@@ -14,6 +36,23 @@ input#email {
     height: 40px;
     transition: height 1s;
     -webkit-transition: height 1s;
+}
+
+#button {
+    font-family: "Roboto Mono", monospace;
+}
+
+.robo {
+    font-family: "Roboto Mono", monospace;
+}
+
+.disc {
+    padding-bottom: 40px;
+}
+
+.thank {
+    padding-bottom: 60px;
+    padding-top: 55px;
 }
 
 #email:focus {
@@ -40,6 +79,10 @@ textarea {
     border: none !important;
     border: 2px solid white !important;
     border-radius: 5px !important;
+}
+
+.findus {
+    font-family: "Noto Sans JP", sans-serif;
 }
 
 textarea:focus {
@@ -196,12 +239,20 @@ ul {
     width: 50%;
 }
 
+a {
+    font-family: "Roboto Mono", monospace;
+}
+
 .carousel {
     max-width: auto;
 }
 
 #button {
     border: 4px solid black;
+}
+
+h5 {
+    font-family: "Roboto Mono", monospace;
 }
 
 img.middle {
