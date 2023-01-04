@@ -8,8 +8,6 @@
 
 #### 2. [@Francis Ngigi](https://github.com/FrancisFlow)
 
-#### 3. [@Emmanuel Wenya](https://github.com/EmmanuelWenyaa1738)
-
 #### 4. [@George Kamakia](https://github.com/0724654276)
 
 ## Description
